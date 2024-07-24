@@ -26,6 +26,7 @@
     height: 8px;
     transition: 15s;
   }
+
   .loading{
     width: 0px;
     height: 8px;
@@ -42,8 +43,8 @@ display: block;
       font-size: 50px;
       font-weight: 900;
       color: whitesmoke;
-          margin-top: 30px;
-    margin-bottom: 30px;
+      margin-top: 31px;
+      margin-bottom: 0px;
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   .heading h1 span{
@@ -54,7 +55,7 @@ display: block;
       
   }
   .image{
-      margin-bottom: 14px;
+      margin-bottom: 10px;
   }
   
   .inputfield{
@@ -167,6 +168,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.box2::placeholder{
+font-size: 16px;
 }
 
 }
