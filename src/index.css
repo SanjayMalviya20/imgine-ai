@@ -29,6 +29,7 @@
 
   .loading{
     width: 0px;
+    /* display: none; */
     height: 8px;
     background-color: #0045c6;
   }
@@ -39,14 +40,14 @@
 display: block;
   }
   
-  .heading h1{
-      font-size: 50px;
-      font-weight: 900;
-      color: whitesmoke;
-      margin-top: 31px;
-      margin-bottom: 0px;
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
+  .heading h1 {
+    font-size: 40px;
+    font-weight: 900;
+    color: whitesmoke;
+    margin-top: 1px;
+    margin-bottom: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
   .heading h1 span{
       color:#247aff;
       /* background:linear-gradient(45deg,red,blue,purple);
@@ -81,9 +82,9 @@ display: block;
   height: 45px;
   color: #ffffff;
   }
-  .imgai{
-    width: 350px;
-  }
+  .imgai {
+    width: 337px;
+}
   
   .btn{
     padding: 14px;
