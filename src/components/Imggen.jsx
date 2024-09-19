@@ -102,7 +102,8 @@ const Imggen = () => {
           <input type="text" value={apikey} onChange={(e) => { setapikey(e.target.value), setinputValuetwo(e.target.value) }} className='searchbox box2' placeholder='signup-in edenai and add your apikey' />
           <div style={{ display: "flex", gap: "10px", justifyContent: "center", alignItems: "center" }}>
             <button disabled={inputValuetwo === ""} onClick={run} className='btn'>SetKey</button>
-            <a href='https://docs.modelslab.com/image-generation' style={{ textDecoration: "none", backgroundColor: "rgb(0 227 255)", fontFamily: "cursive", fontWeight: "bold", borderRadius: "28px", padding: "16px", color: "black" }} >modelslab</a>
+            <a href='https://docs.modelslab.com/image-generation' style={{ textDecoration: "none", backgroundColor: "rgb(0 227 255)", fontFamily: "cursive", fontWeight: "bold", borderRadius: "28px", padding: "15px", color: "black" }} >modelslab</a>
+            <button title='remove key' className='removeBtn'  onClick={() =>{localStorage.removeItem("name") }} style={{backgroundColor:"#ff0000", color:"wheat", border:"none", borderRadius:"50%", cursor:"pointer", padding:"3px 3px"}}>X</button>
           </div>
         </div>
 
