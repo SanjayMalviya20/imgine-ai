@@ -83,7 +83,11 @@ display: block;
   color: #ffffff;
   }
   .imgai {
-    width: 337px;
+    width: 388px;
+    height: 328px;
+    border-radius: 10px;
+    filter: drop-shadow(0px 0px 10px #1ba0ed);
+    border: solid 2px #1ba0ed;
 }
   
   .btn{
@@ -110,10 +114,10 @@ display: block;
     .heading h1{
         font-size: 28px;
     }
-    .image>img{
-    width: 290px;
-
-    }
+    .image>img {
+      width: 279px;
+      height: 285px;
+  }
     .loading-full{
       width: 100%;
     }
